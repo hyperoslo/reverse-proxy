@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rack (1.6.1)
+    rack-proxy (0.5.17)
+      rack
+    rack-reverse-proxy (0.8.1)
+      rack (>= 1.0.0)
+      rack-proxy (~> 0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack-reverse-proxy
